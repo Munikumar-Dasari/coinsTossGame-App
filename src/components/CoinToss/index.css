@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #a35200;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.toss-image {
+  height: 190px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #a35200;
+  border-radius: 6px;
+  background-color: #e2a139;
+  border-width: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.result-container {
+  display: flex;
+}
+
+.result-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  margin: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 25px;
+  }
+
+  .toss-image {
+    height: 220px;
+    width: 240px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+
+  .result-name {
+    font-size: 20px;
+  }
+}
